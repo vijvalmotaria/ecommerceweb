@@ -1,4 +1,4 @@
-# ShopSphere — Full-Stack E-commerce Internship Project
+# ShopSphere — Full-Stack E-commerce 
 
 A polished e-commerce demonstration built with React, Node.js, Express and MongoDB.
 
