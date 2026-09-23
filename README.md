@@ -133,3 +133,14 @@ The current UI is intentionally focused on the customer shopping experience. The
 9. Open Orders and demonstrate persisted order history.
 
 This gives a clean story for the internship: frontend → API integration → authentication → database → cart → checkout → orders.
+
+<img width="1900" height="1078" alt="image" src="https://github.com/user-attachments/assets/d357be6f-2054-4043-8553-b0ec55687e0f" />
+
+<img width="1902" height="927" alt="image" src="https://github.com/user-attachments/assets/5bb1af3b-e245-4652-998f-59d89a7af9b4" />
+
+<img width="1758" height="1073" alt="image" src="https://github.com/user-attachments/assets/d00d75b4-eb23-414b-a7a7-b83bfd84d6c4" />
+
+<img width="1382" height="768" alt="image" src="https://github.com/user-attachments/assets/1d3e008a-d5ca-4341-88ae-ebc796c25043" />
+
+<img width="1243" height="752" alt="image" src="https://github.com/user-attachments/assets/ed95b657-7007-4537-af5e-88b70b4b24ef" />
+
