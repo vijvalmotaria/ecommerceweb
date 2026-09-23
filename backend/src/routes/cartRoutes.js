@@ -9,6 +9,7 @@ async function getCart(userId) {
   let cart = await Cart.findOne({ user: userId }).populate('items.product');
   if (!cart) cart = await Cart.create({ user: userId, items: [] });
   if (!cart.populated('items.product')) await cart.populate('items.product');
+  cart.items = cart.items.filter(i => i.product != null);
   return cart;
 }
 

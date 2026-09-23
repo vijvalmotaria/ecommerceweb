@@ -31,8 +31,8 @@ export function CartProvider({ children }) {
     setCart(data);
   }
 
-  const count = useMemo(() => cart.items.reduce((sum, item) => sum + item.quantity, 0), [cart]);
-  const subtotal = useMemo(() => cart.items.reduce((sum, item) => sum + item.product.price * item.quantity, 0), [cart]);
+  const count = useMemo(() => cart.items.reduce((sum, item) => sum + (item.quantity || 0), 0), [cart]);
+  const subtotal = useMemo(() => cart.items.reduce((sum, item) => sum + (item.product?.price || 0) * (item.quantity || 0), 0), [cart]);
   const shipping = subtotal === 0 || subtotal >= 999 ? 0 : 60;
   const total = subtotal + shipping;
 

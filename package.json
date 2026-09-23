@@ -1,0 +1,10 @@
+{
+  "name": "shopsphere-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm --prefix backend install",
+    "start": "node backend/src/server.js"
+  }
+}
